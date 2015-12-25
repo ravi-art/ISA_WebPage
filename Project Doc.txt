@@ -1,0 +1,8 @@
+Project done by Krishnakumar Rajendran & Jyotsna Mishra
+Title:	ISA Official Web Page. 
+Description:	This project is just for practice and may be launched public if it looks good. 
+				This project is developed in three Phases: 1. By using HTML5 & CSS3 which would be just static. 2. Implementing JS,JQuery & Ajax. 3. Upgrading it as a one page application by implementing AngularJS.
+Pages: Home, About & Contact US
+Home Page: 
+Nav:
+Font-Size: 13px,Font-Family: sans-serif,Color: White, Background:#00aeef.
