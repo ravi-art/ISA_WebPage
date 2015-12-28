@@ -1,0 +1,46 @@
+ul{	background-color:white;
+	border-radius:10px;
+	position:relative;
+	margin-top:25px;
+	float:center;
+	text-align: center;
+	height: 25px;
+}
+li{  display:inline;
+	width:100%;
+	font-family:sans-serif;
+	font-size:16;
+	margin:5px;	
+	padding-top:5px;
+}
+body{ background-color:#00aeef}
+img{width:98%;
+	height:65%;
+	margin:15px;}
+.circleDiv1{
+    width: 400px;
+    height: 400px;
+    background: aqua;
+    border: 10px solid blue;
+	border-radius:50%;
+	margin:10px;
+	float:left;
+}
+.circleDiv2{
+    width: 400px;
+    height: 400px;
+    background: aqua;
+    border: 10px solid blue;
+	border-radius:50%;
+	margin:10px;
+	float:left;
+}
+.circleDiv3{
+    width: 400px;
+    height: 400px;
+    background: aqua;
+    border: 10px solid blue;
+	border-radius:50%;
+	margin:10px;
+	float:left;
+}
