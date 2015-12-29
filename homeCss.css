@@ -1,46 +1,72 @@
-ul{	background-color:white;
-	border-radius:10px;
-	position:relative;
-	margin-top:25px;
+ul.container {
+	display: flex;
+	align-items: center;}
+
+ul{	background-color:blue;
 	float:center;
-	text-align: center;
-	height: 25px;
+	text-align:center;
+	height:50px;
+	width:100%;
+	margin:0;
+	padding:0;
+	vertical-align:middle;
 }
 li{  display:inline;
 	width:100%;
 	font-family:sans-serif;
-	font-size:16;
-	margin:5px;	
-	padding-top:5px;
+	font-size:26;
+	position: relative;
 }
-body{ background-color:#00aeef}
-img{width:98%;
-	height:65%;
-	margin:15px;}
+a{ color:white;
+	float:center;
+	padding:1ex;
+	font-weight: bold;
+	text-decoration:none;
+}
+ul li a:hover{
+color:white;
+background-color: #369;
+}
+body{ background-color:lightgrey; margin:0; padding:0;}
+img{height:65%;
+	width: 94.5%;
+	padding-left:35px;
+	padding-right:35px;
+	float:center;
+}
 .circleDiv1{
-    width: 400px;
-    height: 400px;
-    background: aqua;
+    width: 375px;
+    height: 375px;
+    background: blue;
     border: 10px solid blue;
 	border-radius:50%;
-	margin:10px;
+	margin-top:25px;
+	margin-left:35px;
+	margin-right:20px;
+	margin-bottom:10px;
 	float:left;
 }
 .circleDiv2{
-    width: 400px;
-    height: 400px;
-    background: aqua;
+    width: 375px;
+    height: 375px;
+    background: blue;
     border: 10px solid blue;
 	border-radius:50%;
-	margin:10px;
+	margin-top:25px;
+	margin-right:20px;
+	margin-left:20px;
+	margin-bottom:10px;
 	float:left;
 }
 .circleDiv3{
-    width: 400px;
-    height: 400px;
-    background: aqua;
+    width: 375px;
+    height: 375px;
+    background: blue;
     border: 10px solid blue;
 	border-radius:50%;
-	margin:10px;
+	margin-top:25px;
+	margin-right:35px;
+	margin-left:20px;
+	margin-bottom:10px;
 	float:left;
 }
