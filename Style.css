@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document
+Project Name: ISA Official site. 
+Project Members: Jyo & Krish
+ */
+
+nav.container {
+	display: flex;
+	align-items: center;
+	background-color:blue;}
+
+ul{	
+	float:center;
+	text-align:center;
+	height:34px;
+	width:100%;
+	margin:0;
+	padding:0;
+	vertical-align:middle;
+}
+li{  display:inline;
+	width:100%;
+	font-family:sans-serif;
+	font-size:15px;
+	position: relative;
+}
+a{ color:white;
+	float:center;
+	padding:1ex;
+	font-weight: bold;
+	text-decoration:none;
+}
+ul li a:hover{
+color:white;
+background-color: #DDFB10;
+}
+body{ background-color:lightgrey; margin:0; padding:0;}
+.itemContainer{    margin: 3% 2% 0 1%;}
+.image1{
+    width: 100%;
+    height: 365px;
+    margin: 0 0px 0px 6px;}
+
+.rowAligned{margin-left:10%}
+.circleDiv{
+    width: 275px;
+    height: 275px;
+    background: blue;
+    border: 10px solid blue;
+	border-radius:50%;
+	margin-top:25px;
+	margin-left:35px;
+	margin-right:20px;
+	margin-bottom:10px;
+	float:left;
+}	.aboutUnivCollapse{background-color:blue;width:100%;height:55px;cursor:pointer;}	.aboutISACollapse{background-color:blue;width:100%;height:55px;margin-top:3%;cursor:pointer;}	.spanInDiv{color:white;font-size:1.5em;margin-left:4%;}
+
+.aboutContent{font-size: 1.1em;margin: 0 5%;}	.hideDisplay{display:none;background-color:#FFFFFF;}	.imgLeftsliderarrow{    position: absolute;top: 59%;left: 44%;float:left;} .imgRightsliderarrow{    position: absolute;top: 59%;left: 49%;float:left;}
