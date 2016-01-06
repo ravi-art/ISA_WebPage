@@ -67,3 +67,16 @@ function change(getId) {
     }
 	}
 	}
+/*function tab(){
+	$("#tab1").append('<tr><td><a class="clRow">Touch Me</a></td><td>Do not touch me</td></tr>');
+	var className =	document.getElementsByClassName("clRow");
+	//$(".clRow").click(handler);
+	for(var i = 0;i<className.length;i++){
+			className[i].addEventListener('click',handler, false);
+
+	}
+}
+function handler(){
+	alert("You got me");
+	}
+tab();*/
