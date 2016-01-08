@@ -1,130 +1,329 @@
 @charset "utf-8";
-/* CSS Document
-Project Name: ISA Official site. 
-Project Members: Jyo & Krish
- */
-@media screen  and (min-width:980px) /* Desktop */ {
-
-nav.container {
-	display: flex;
-	align-items: center;
-	background-color:blue;}
-
-ul{	
-	float:center;
-	text-align:center;
-	height:34px;
-	width:100%;
-	margin:0;
-	padding:0;
-	vertical-align:middle;
+@media screen and (min-width:980px)
+{
+	nav.container
+	{
+		align-items: center;
+		background-color: blue;
+		display: flex;
+	}
+	ul
+	{
+		float: center;
+		height: 34px;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		vertical-align: middle;
+		width: 100%;
+	}
+	li
+	{
+		display: inline;
+		font-family: sans-serif;
+		font-size: 15px;
+		position: relative;
+		width: 100%;
+	}
+	a
+	{
+		color: white;
+		float: center;
+		font-weight: bold;
+		padding: 1ex;
+		text-decoration: none;
+	}
+	ul li a:hover
+	{
+		background-color: #DDFB10;
+		color: white;
+	}
+	.imgLeftsliderarrow
+	{
+		float: left;
+		left: 44%;
+		position: absolute;
+		top: 59%;
+	}
+	.imgRightsliderarrow
+	{
+		float: left;
+		left: 49%;
+		position: absolute;
+		top: 59%;
+	}
+	.univImage
+	{
+		background-image: url(CSLA-UAS_1.jpg);
+		background-repeat: no-repeat;
+		float: left;
+		height: 300px;
+		width: 38%;
+	}
+	.stuImage
+	{
+		background-image: url(isaStudent.jpg);
+		background-repeat: no-repeat;
+		float: left;
+		height: 300px;
+		width: 38%;
+	}
 }
-li{  display:inline;
-	width:100%;
-	font-family:sans-serif;
-	font-size:15px;
-	position: relative;
+body
+{
+	font-family: "Segoe UI light", "Segoe UI", Arial, Tahoma, sans-serif;
+	margin: 0;
+	padding: 0;
 }
-a{ color:white;
-	float:center;
-	padding:1ex;
-	font-weight: bold;
-	text-decoration:none;
+.itemContainer
+{
+	margin: 3% 2% 0 1%;
 }
-ul li a:hover{
-color:white;
-background-color: #DDFB10;
-}	.imgLeftsliderarrow{position: absolute;top: 59%;left: 44%;float:left;} .imgRightsliderarrow{    position: absolute;top: 59%;left: 49%;float:left;}
-.univImage{float:left;width:38%;height:300px;background-image:url(CSLA-UAS_1.jpg);background-repeat: no-repeat;}
-.stuImage{float:left;width:38%;height:300px;background-image:url(isaStudent.jpg);background-repeat: no-repeat;}
-
+.contactDiv
+{
+	background-color: rgb(0, 120, 215);
+	color: #FFFFFF;
+	font-size: 46px;
+	height: 445px;
 }
-body{margin:0; padding:0; font-family: "Segoe UI light", "Segoe UI", Arial, Tahoma, sans-serif;}
-.itemContainer{    margin: 3% 2% 0 1%;}	.contactDiv{background-color: rgb(0, 120, 215);color:#FFFFFF;font-size:46px;height:445px;}	.contLeft{float:left;width:75px;font-size:20px;}	.contRight{float: left;width: 521px;font-size: 20px;
-    border-radius: 5px;height: 29px;border-color: #EAA9EF;} textarea{height:100px !important}
-.clr{clear:both;}	.btnSubmit{width: 15%;height: 40px;font-size: 20px;color: white;background-color: #585867;   border-radius: 7px;cursor: pointer;margin-left:7%;} .btnSubmit:hover{background-color:#6B6B7D;} .trCont{margin-top:2%;}	.boxContainer{margin-left:25%;}	
-.image1{
-    width: 100%;
-    height: 365px;
-    margin: 0 0px 0px 6px;}
-
-.rowAligned{margin-left:10%}
-.circleDiv{
-    width: 275px;
-    height: 275px;
-    background: blue;
-    border: 10px solid blue;
-	border-radius:50%;
-	margin-top:25px;
-	margin-left:35px;
-	margin-right:20px;
-	margin-bottom:10px;
-	float:left;
-}	.aboutUnivCollapse{background-color:blue;width:100%;height:55px;cursor:pointer;}	.aboutISACollapse{background-color:blue;width:100%;height:55px;margin-top:3%;cursor:pointer;}	.spanInDiv{color:white;font-size:1.5em;margin-left:4%;}
-#slider{height: 365px;}
-.aboutContent{font-size: 1.1em;margin: 0 5%;width:50%;float:left;margin-top:4%;} .colCity{color:#FFFF00; font-size:24px;} .colName{color:#000000;}  .aboutContent span a{color:blue;font-style:normal;}	.hideDisplay{display:none;background-color:#D8D8D8;}	.bBlock{display:block;}	.quote{color:#2C34C5;} .clRow{background-color:#FFFF00;}
-
-@media screen  and (max-width:979px) /* Tablet */ {	
-nav.container {
-	display: flex;
-	align-items: center;
-	background-color:blue;}
-
-ul{	
-	float:center;
-	text-align:center;
-	height:34px;
-	width:100%;
-	margin:0;
-	padding:0;
-	vertical-align:middle;
+.contLeft
+{
+	float: left;
+	font-size: 20px;
+	width: 75px;
 }
-li{  display:inline;
-	width:100%;
-	font-family:sans-serif;
-	font-size:15px;
-	position: relative;
+.contRight
+{
+	border-color: #EAA9EF;
+	border-radius: 5px;
+	float: left;
+	font-size: 20px;
+	height: 29px;
+	width: 521px;
 }
-a{ color:white;
-	float:center;
-	padding:1ex;
-	font-weight: bold;
-	text-decoration:none;
+textarea
+{
+	height: 100px !important;
 }
-ul li a:hover{
-color:white;
-background-color: #DDFB10;
-}		.imgLeftsliderarrow{    position: absolute;top: 59%;left: 40%;float:left;} .imgRightsliderarrow{    position: absolute;top: 59%;left: 53%;float:left;}
+.clr
+{
+	clear: both;
 }
-@media screen and (max-width:500px) /* Mobile */ {
-nav.container {
-	display: flex;
-	align-items: center;
-	background-color:blue;}
-
-ul{	
-	float:center;
-	text-align:center;
-	height:96px;
-	width:100%;
-	margin:0;
-	padding:0;
-	vertical-align:middle;
+.btnSubmit
+{
+	background-color: #585867;
+	border-radius: 7px;
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+	height: 40px;
+	margin-left: 7%;
+	width: 15%;
 }
-li{  display:flex;
-	width:100%;
-	font-family:sans-serif;
-	font-size:15px;
-	position: relative;
+.btnSubmit:hover
+{
+	background-color: #6B6B7D;
 }
-a{ color:white;
-	float:center;
-	padding:1ex;
-	font-weight: bold;
-	text-decoration:none;
+.trCont
+{
+	margin-top: 2%;
 }
-ul li a:hover{
-color:white;
-background-color: #DDFB10;
-}	.imgLeftsliderarrow{    position: absolute;top: 75%;left: 38%;float:left;} .imgRightsliderarrow{    position: absolute;top: 75%;left: 55%;float:left;}
+.boxContainer
+{
+	margin-left: 25%;
+}
+.image1
+{
+	height: 365px;
+	margin: 0 0px 0px 6px;
+	width: 100%;
+}
+.rowAligned
+{
+	margin-left: 10%;
+}
+.circleDiv
+{
+	background: blue;
+	border: 10px solid blue;
+	border-radius: 50%;
+	float: left;
+	height: 275px;
+	margin-bottom: 10px;
+	margin-left: 35px;
+	margin-right: 20px;
+	margin-top: 25px;
+	width: 275px;
+}
+.aboutUnivCollapse
+{
+	background-color: blue;
+	cursor: pointer;
+	height: 55px;
+	width: 100%;
+}
+.aboutISACollapse
+{
+	background-color: blue;
+	cursor: pointer;
+	height: 55px;
+	margin-top: 3%;
+	width: 100%;
+}
+.spanInDiv
+{
+	color: white;
+	font-size: 1.5em;
+	margin-left: 4%;
+}
+#slider
+{
+	height: 365px;
+}
+.aboutContent
+{
+	float: left;
+	font-size: 1.1em;
+	margin: 0 5%;
+	margin-top: 4%;
+	width: 50%;
+}
+.colCity
+{
+	color: #FFFF00;
+	font-size: 24px;
+}
+.colName
+{
+	color: #000000;
+}
+.aboutContent span a
+{
+	color: blue;
+	font-style: normal;
+}
+.hideDisplay
+{
+	background-color: #D8D8D8;
+	display: none;
+}
+.bBlock
+{
+	display: block;
+}
+.quote
+{
+	color: #2C34C5;
+}
+.clRow
+{
+	background-color: #FFFF00;
+}
+@media screen and (max-width:979px)
+{
+	nav.container
+	{
+		align-items: center;
+		background-color: blue;
+		display: flex;
+	}
+	ul
+	{
+		float: center;
+		height: 34px;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		vertical-align: middle;
+		width: 100%;
+	}
+	li
+	{
+		display: inline;
+		font-family: sans-serif;
+		font-size: 15px;
+		position: relative;
+		width: 100%;
+	}
+	a
+	{
+		color: white;
+		float: center;
+		font-weight: bold;
+		padding: 1ex;
+		text-decoration: none;
+	}
+	ul li a:hover
+	{
+		background-color: #DDFB10;
+		color: white;
+	}
+	.imgLeftsliderarrow
+	{
+		float: left;
+		left: 40%;
+		position: absolute;
+		top: 59%;
+	}
+	.imgRightsliderarrow
+	{
+		float: left;
+		left: 53%;
+		position: absolute;
+		top: 59%;
+	}
+}
+@media screen and (max-width:500px)
+{
+	nav.container
+	{
+		align-items: center;
+		background-color: blue;
+		display: flex;
+	}
+	ul
+	{
+		float: center;
+		height: 96px;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		vertical-align: middle;
+		width: 100%;
+	}
+	li
+	{
+		display: flex;
+		font-family: sans-serif;
+		font-size: 15px;
+		position: relative;
+		width: 100%;
+	}
+	a
+	{
+		color: white;
+		float: center;
+		font-weight: bold;
+		padding: 1ex;
+		text-decoration: none;
+	}
+	ul li a:hover
+	{
+		background-color: #DDFB10;
+		color: white;
+	}
+	.imgLeftsliderarrow
+	{
+		float: left;
+		left: 38%;
+		position: absolute;
+		top: 75%;
+	}
+	.imgRightsliderarrow
+	{
+		float: left;
+		left: 55%;
+		position: absolute;
+		top: 75%;
+	}
 }
